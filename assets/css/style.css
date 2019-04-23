@@ -1,1 +1,36 @@
-body {background-color: blue}
+header {background-color: #ffffff;        border: 100px;
+        height: 80px;
+        border-bottom-color: #cccccc;
+    }
+body {background-color: grey;}
+p {background: #ffffff;
+        border: #dddddd;
+    }
+
+footer {background-color: #666666;
+    bottom: 0px;
+    margin: 0 auto;
+    border-top-color: #4aaaa5;
+    border-top-width: 50px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+}
+#ppic { width: 200px;
+        height: 200px;
+    }
+
+#link { text-align: left; }
+#name {
+position: fixed;
+text-align: center;
+top: 0;
+left: 300px;
+padding: 40px;
+margin:0;
+background-color: #4aaaa5;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
