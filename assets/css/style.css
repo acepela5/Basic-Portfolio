@@ -1,11 +1,12 @@
 header {background-color: #ffffff;        
-    border-style: solid;    
     border: 100px;
-    height: 80px;
+    width: 80px;
     border-bottom-color: #cccccc;
+    margin: 20px;
     }
 
-    body {background-color: lightgray; }
+    body {background-color: lightgray;
+    background-image: url("../images/greyfloral.png"); }
 
     #content {background: #ffffff;
         border: #dddddd;
@@ -82,4 +83,9 @@ height: 5em;
 }
 
 button { margin-left: .5em;
+}
+
+.port { height: 250px;
+width: 250px; 
+align-items: center;
 }
