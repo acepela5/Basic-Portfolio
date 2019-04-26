@@ -1,4 +1,5 @@
-header {background-color: #ffffff;        
+header {
+    background-color: #ffffff;        
     border: 100px;
     width: 80px;
     border-bottom-color: #cccccc;
@@ -8,11 +9,15 @@ header {background-color: #ffffff;
     body {background-color: lightgray;
     background-image: url("../images/greyfloral.png"); }
 
-    #content {background: #ffffff;
+    #content {
+        clear: both;
+        background: #ffffff;
         border: #dddddd;
+        margin: 110px;
     }
 
-footer {background-color: #666666;
+footer {
+    background-color: #666666;
     bottom: 0px;
     left: 0px;
     border-top-style: solid;
@@ -24,15 +29,15 @@ footer {background-color: #666666;
     height: 50px;
 }
 
-}
 .wrapper {
     margin: 0 auto;
     width: 1024px;
 }
-#ppic { width: 200px;
-        height: 200px;
-        float: left;
-    }
+#ppic {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
 
 #fixed {
 position: fixed;
@@ -46,7 +51,7 @@ color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {font-size: larger; 
+h1 {font-size: 30px; 
 }
 
 form { margin: 0 auto;
