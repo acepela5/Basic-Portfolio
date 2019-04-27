@@ -1,13 +1,28 @@
 .navitem {
+/* with help from John Dahle */
     position: relative;
     float: right;
     background-color: #ffffff;        
     border: 100px;
+    text-decoration: none;
     width: 80px;
     margin: 20px;
-    height: 50px;
+    height: 20px;
     z-index: 10;
+    border-right-color: #d6d2d2;
+    border-right-style: solid;
+    border-right-width: 1px; 
     }
+
+a:hover {
+    color: #ec81ec;
+    transition: 0.3s;
+
+}
+
+hr {
+    margin: 20px;
+}
 
 .top {
     width: 960px;
@@ -48,7 +63,7 @@
         margin-right: auto;
         margin-left: auto;
         align-content: center;
-        min-height: 350px;
+        min-height: 150px;
         line-height: 150%;
         font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
         color: #777777;
@@ -56,6 +71,7 @@
     }
 
 footer {
+/* with help from Dave */
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -88,6 +104,7 @@ footer {
 #fixed {
 position: fixed;
 text-align: center;
+font-size: 30px;
 top: 0;
 left: -200;
 padding: 40px;
@@ -96,15 +113,19 @@ background-color: #4aaaa5;
 color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
 z-index: 3;
-border-radius: 10px;
+height: 20px;
 }
+
+/* <!-- Code influenced by MDN Webdocs --> */
+/* <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form --> */ */
 
 form { margin: 0 auto;
 width: 960px;
 padding: 1px;
 border: 1px solid #777777;
-border-radius: 1em;
+border-radius: 10px;
 z-index: 5;
+
 }
 
 form div + div {
@@ -112,14 +133,18 @@ form div + div {
 }
 
 label { display: inline-block;
-width: 90px;
+width: 80px;
 text-align: right;
 }
 
 input, textarea { font: 1em sans-serif;
-width: 300px;
+width: 500px;
+height: 30px;
 box-sizing: border-box;
 border: 1px solid #777777;
+box-align: center;
+border-radius: 10px;
+
 }
 
 input:focus, textarea:focus {
@@ -127,13 +152,26 @@ input:focus, textarea:focus {
 }
 
 textarea { vertical-align: top;
-height: 5em;
+height: 7em;
+width: 500px;
+border-radius: 10px;
+
 }
 
 .button { padding-left: 90px;
+    padding-bottom: 20px;
 }
 
 button { margin-left: .5em;
+    background: #4aaaa5;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ec81ec;
+    transition: 0.3s;
 }
 
 .port { height: 250px;
@@ -141,6 +179,7 @@ width: 250px;
 align-items: center;
 position: relative;
 z-index: 0;
+margin: 15px;
 }
 
 .text {
@@ -151,25 +190,27 @@ z-index: 0;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     position: absolute;
     color: white;
+    text-align: center;
+    font-weight: 100;
 }
 
 #a {
-    margin: -40px;
-    left: 17.65%;
+    margin: -52px;
+    left: 265px;
 }
 #b {
-    margin: -40px;
-    left: 36.5%;
+    margin: -52px;
+    left: 549px;
 }
 #c {
-    margin: -40px;
-    left: 17.65%;
+    margin: -52px;
+    left: 265px;
 }
 #d {
-    margin: -40px;
-    left: 36.5%;
+    margin: -52px;
+    left: 549px;
 }
 #e {
-    margin: -40px;
-    left: 17.65%; 
+    margin: -52px;
+    left: 265px; 
 }
