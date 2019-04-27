@@ -1,19 +1,54 @@
-header {
+.navitem {
+    position: relative;
+    float: right;
     background-color: #ffffff;        
     border: 100px;
     width: 80px;
-    border-bottom-color: #cccccc;
     margin: 20px;
+    height: 50px;
+    z-index: 6;
     }
 
-    body {background-color: lightgray;
+.top {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    #header{
+        position: fixed;
+        background-color: #ffffff;
+        height: 100px;
+        right: 0px;
+        left: 0px;
+        float: right;
+        width: 100%;
+        top: 0px;
+        border-bottom-color: #cccccc;
+        border-bottom-style: solid; 
+        z-index: 1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h1 {
+        padding-top: 20px;
+        margin-left: 80px;
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body {background-color: #ffffff;
     background-image: url("../images/greyfloral.png"); }
 
     #content {
         clear: both;
         background: #ffffff;
         border: #dddddd;
-        margin: 110px;
+        margin: 170px;
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+        align-content: center;
+        height: 350px;
+        line-height: 150%;
     }
 
 footer {
@@ -25,8 +60,8 @@ footer {
     border-top-width: 8px; 
     text-align: center;
     position: fixed;
-    width: 1390px;
-    height: 50px;
+    width: 100%;
+    height: 40px;
 }
 
 .wrapper {
@@ -37,6 +72,7 @@ footer {
     width: 200px;
     height: 200px;
     float: left;
+    padding: 2%;
 }
 
 #fixed {
@@ -49,16 +85,18 @@ margin:0;
 background-color: #4aaaa5;
 color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
+z-index: 3;
 }
 
 h1 {font-size: 30px; 
 }
 
 form { margin: 0 auto;
-width: 400px;
-padding: 1em;
+width: 960px;
+padding: 1px;
 border: 1px solid black;
 border-radius: 1em;
+z-index: 5;
 }
 
 form div + div {
@@ -93,4 +131,13 @@ button { margin-left: .5em;
 .port { height: 250px;
 width: 250px; 
 align-items: center;
+z-index: 3;
 }
+
+.text {
+    height: 10px;
+    width: 50px;
+    background-color: #4aaaa5;
+    z-index: 4;
+}
+
