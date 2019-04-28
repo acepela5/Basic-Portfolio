@@ -17,7 +17,8 @@
                         <a class="navitem" href="./portfolio.html">Portfolio</a>
                     </div>
                 </div>
-            </div>
+        </div>
+
 <!-- Navigator developed with help from John Dahle -->
 
 <div class="wrapper">
@@ -25,28 +26,19 @@
         <h1>Contact</h1>
         <hr>
 
-<!-- Code influenced by MDN Webdocs -->
-<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form -->
+<!-- Code influenced by W3 -->
 
-        <form action="/my-handling-form-page" method="post">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-            </div>
-            <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email">
-            </div>
-            <div>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit">Submit</button>
-            </div>
+        <form action="/action_page.php" id="usrform">
+            <div id="text">Name:</div>
+                    <input class="form" type="text" name="usrname">
+            <div id="text">Email:</div>
+                    <input class="form" type="text" name="email">
+                <br>
+            <div id="text">Message:</div>            <textarea id="message" rows="6" cols="80" name="comment" form="usrform"></textarea>
         </form>
+        <button type="button" onclick="alert('Message Sent')">Submit</button>
 
-    </div>
+    </section>       
 </div>
     <footer>Copyright&copy;</footer>
 </body>
