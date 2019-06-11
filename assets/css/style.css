@@ -141,7 +141,6 @@ button {
     background: #4aaaa5;
     color: white;
     margin: 10px 20px;
-    : 20pxp;
 }
 
 button:hover {
@@ -181,17 +180,3 @@ button:hover {
     left: 549px;
 }
 
-#c {
-    margin: -52px;
-    left: 265px;
-}
-
-#d {
-    margin: -52px;
-    left: 549px;
-}
-
-#e {
-    margin: -52px;
-    left: 265px;
-}
